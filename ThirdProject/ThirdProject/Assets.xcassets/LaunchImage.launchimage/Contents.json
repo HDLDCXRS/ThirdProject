@@ -90,18 +90,21 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "320-480.png",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "640-961.png",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "640-1137.png",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"
