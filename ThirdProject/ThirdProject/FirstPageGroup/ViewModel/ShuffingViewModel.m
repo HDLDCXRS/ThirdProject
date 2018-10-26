@@ -10,6 +10,7 @@
 #import "ShuffingModel.h"
 @implementation ShuffingViewModel
 //
+
 -(AFHTTPSessionManager *)manager
 {
     if (!_manager) {
