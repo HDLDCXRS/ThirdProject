@@ -10,5 +10,5 @@
 #define CommonDefine_h
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
-
+#define WEBURL [NSURL URLWithString:@"http://211.67.177.56:8080/"]
 #endif /* CommonDefine_h */

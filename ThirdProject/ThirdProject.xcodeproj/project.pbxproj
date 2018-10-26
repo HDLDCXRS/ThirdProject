@@ -21,6 +21,11 @@
 		50AA7BCB2181FC5000DD132A /* UIImageView+SLImageViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BC32181FC5000DD132A /* UIImageView+SLImageViewCategory.m */; };
 		50AA7BCC2181FC5000DD132A /* UILabel+SLLabelCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BC52181FC5000DD132A /* UILabel+SLLabelCategory.m */; };
 		50AA7BCD2181FC5000DD132A /* UITextField+SLTextFieldCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BC72181FC5000DD132A /* UITextField+SLTextFieldCategory.m */; };
+		50AA7C022182AE9B00DD132A /* ShuffingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C012182AE9B00DD132A /* ShuffingModel.m */; };
+		50AA7C052182AFFE00DD132A /* ShuffingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C042182AFFE00DD132A /* ShuffingView.m */; };
+		50AA7C092182B05100DD132A /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C072182B05100DD132A /* SLBannerView.m */; };
+		50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */; };
+		50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0F2182B31F00DD132A /* AssignToObject.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,16 @@
 		50AA7BCF2181FCB900DD132A /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
 		50AA7BF1218202F700DD132A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		50AA7BFC2182064F00DD132A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		50AA7C002182AE9B00DD132A /* ShuffingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffingModel.h; sourceTree = "<group>"; };
+		50AA7C012182AE9B00DD132A /* ShuffingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingModel.m; sourceTree = "<group>"; };
+		50AA7C032182AFFE00DD132A /* ShuffingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffingView.h; sourceTree = "<group>"; };
+		50AA7C042182AFFE00DD132A /* ShuffingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingView.m; sourceTree = "<group>"; };
+		50AA7C072182B05100DD132A /* SLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBannerView.m; sourceTree = "<group>"; };
+		50AA7C082182B05100DD132A /* SLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBannerView.h; sourceTree = "<group>"; };
+		50AA7C0A2182B1FB00DD132A /* ShuffingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffingViewModel.h; sourceTree = "<group>"; };
+		50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingViewModel.m; sourceTree = "<group>"; };
+		50AA7C0E2182B31F00DD132A /* AssignToObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
+		50AA7C0F2182B31F00DD132A /* AssignToObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C46C3DA0C763C1BC3FFB8 /* Pods-ThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +146,8 @@
 		50AA7B992181D90800DD132A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				50AA7C0D2182B2C300DD132A /* Dictionary  return Model */,
+				50AA7C062182B03100DD132A /* ShuffingGroup */,
 				50AA7BBE2181FC5000DD132A /* Category */,
 				50AA7BB42181E2E600DD132A /* NavagationAndTabBar */,
 			);
@@ -140,6 +157,7 @@
 		50AA7B9A2181D91A00DD132A /* FirstPageGroup */ = {
 			isa = PBXGroup;
 			children = (
+				50AA7BFF2182ADCF00DD132A /* ViewModel */,
 				50AA7B9F2181D9AE00DD132A /* Model */,
 				50AA7B9E2181D9A400DD132A /* View */,
 				50AA7B9D2181D99B00DD132A /* Controller */,
@@ -179,6 +197,8 @@
 		50AA7B9E2181D9A400DD132A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50AA7C032182AFFE00DD132A /* ShuffingView.h */,
+				50AA7C042182AFFE00DD132A /* ShuffingView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +206,8 @@
 		50AA7B9F2181D9AE00DD132A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				50AA7C002182AE9B00DD132A /* ShuffingModel.h */,
+				50AA7C012182AE9B00DD132A /* ShuffingModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,6 +292,33 @@
 				50AA7BC72181FC5000DD132A /* UITextField+SLTextFieldCategory.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		50AA7BFF2182ADCF00DD132A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50AA7C0A2182B1FB00DD132A /* ShuffingViewModel.h */,
+				50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50AA7C062182B03100DD132A /* ShuffingGroup */ = {
+			isa = PBXGroup;
+			children = (
+				50AA7C082182B05100DD132A /* SLBannerView.h */,
+				50AA7C072182B05100DD132A /* SLBannerView.m */,
+			);
+			path = ShuffingGroup;
+			sourceTree = "<group>";
+		};
+		50AA7C0D2182B2C300DD132A /* Dictionary  return Model */ = {
+			isa = PBXGroup;
+			children = (
+				50AA7C0E2182B31F00DD132A /* AssignToObject.h */,
+				50AA7C0F2182B31F00DD132A /* AssignToObject.m */,
+			);
+			path = "Dictionary  return Model";
 			sourceTree = "<group>";
 		};
 		E6A56230B67C75EEA5852164 /* Pods */ = {
@@ -378,11 +427,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AA7B912181C53900DD132A /* main.m in Sources */,
+				50AA7C022182AE9B00DD132A /* ShuffingModel.m in Sources */,
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
+				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
+				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
 				50AA7BAE2181DA7E00DD132A /* MyDJViewController.m in Sources */,
 				50AA7B832181C53700DD132A /* AppDelegate.m in Sources */,
 				50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */,
+				50AA7C052182AFFE00DD132A /* ShuffingView.m in Sources */,
 				50AA7BCB2181FC5000DD132A /* UIImageView+SLImageViewCategory.m in Sources */,
+				50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */,
 				50AA7BA82181DA5400DD132A /* FirstPageViewController.m in Sources */,
 				50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */,
 				50AA7BCC2181FC5000DD132A /* UILabel+SLLabelCategory.m in Sources */,

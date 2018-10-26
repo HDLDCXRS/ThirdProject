@@ -17,4 +17,6 @@
 #import "MBProgressHUD.h"
 #import "CommonDefine.h"
 #import "SLBasicControlsHeader.h"
+#import "AssignToObject.h"
+#import "SLBannerView.h"
 #endif /* PrefixHeader_pch */
