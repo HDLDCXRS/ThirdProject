@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "OwnDefineBtn.h"
 NS_ASSUME_NONNULL_BEGIN
-typedef void(^buttonBlock)(UIButton * btn);
-@interface SixButtonView : UIButton
-@property(nonatomic,strong) UILabel  * nameLabel;
-@property(nonatomic,strong) UIButton  * nameBtn;
-@property(nonatomic,copy) buttonBlock  jump;
+
+@interface SixButtonView : UIView
+//@property(nonatomic,strong) OwnDefineBtn  * ownBtn;
+typedef void(^SixItemClickBlock)(NSInteger index);
+@property(nonatomic,copy) SixItemClickBlock clickBlock;
 @end
 
 NS_ASSUME_NONNULL_END
