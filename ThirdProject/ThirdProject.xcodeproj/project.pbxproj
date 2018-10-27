@@ -26,6 +26,7 @@
 		50AA7C092182B05100DD132A /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C072182B05100DD132A /* SLBannerView.m */; };
 		50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */; };
 		50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0F2182B31F00DD132A /* AssignToObject.m */; };
+		50AA7C5A2183F7E500DD132A /* SixButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C592183F7E500DD132A /* SixButtonView.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,8 @@
 		50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingViewModel.m; sourceTree = "<group>"; };
 		50AA7C0E2182B31F00DD132A /* AssignToObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
 		50AA7C0F2182B31F00DD132A /* AssignToObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
+		50AA7C582183F7E500DD132A /* SixButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixButtonView.h; sourceTree = "<group>"; };
+		50AA7C592183F7E500DD132A /* SixButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixButtonView.m; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C46C3DA0C763C1BC3FFB8 /* Pods-ThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +200,8 @@
 		50AA7B9E2181D9A400DD132A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50AA7C582183F7E500DD132A /* SixButtonView.h */,
+				50AA7C592183F7E500DD132A /* SixButtonView.m */,
 				50AA7C032182AFFE00DD132A /* ShuffingView.h */,
 				50AA7C042182AFFE00DD132A /* ShuffingView.m */,
 			);
@@ -427,6 +432,7 @@
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
 				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
 				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
+				50AA7C5A2183F7E500DD132A /* SixButtonView.m in Sources */,
 				50AA7BAE2181DA7E00DD132A /* MyDJViewController.m in Sources */,
 				50AA7B832181C53700DD132A /* AppDelegate.m in Sources */,
 				50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */,
