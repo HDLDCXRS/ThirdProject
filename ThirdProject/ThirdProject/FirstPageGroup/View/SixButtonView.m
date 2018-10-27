@@ -20,6 +20,13 @@
             make.top.left.equalTo(0);
             make.size.equalTo(CGSizeMake(40, 40));
         }];
+        _nameLabel = [UILabel labelWithFrame:CGRectZero backgroundColor:[UIColor whiteColor] text:@"" textColor:[UIColor grayColor] font:[UIFont systemFontOfSize:18.0] textAlignment:NSTextAlignmentLeft numberOfLines:0 adjustsFontSizeToFitWidth:YES];
+        [self addSubview:_nameLabel];
+        [_nameLabel makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.nameBtn.top).offset(0);
+            make.centerX.equalTo(0);
+            make.size.equalTo(CGSizeMake(100, 20));
+        }];
         
     }
     return self;

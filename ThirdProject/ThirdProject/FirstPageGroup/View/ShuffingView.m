@@ -7,6 +7,7 @@
 //
 
 #import "ShuffingView.h"
+
 @implementation ShuffingView
 -(id)initWithFrame:(CGRect)frame
 {
@@ -35,6 +36,30 @@
             weakSelf.bannerView.titleLabel.textColor = [UIColor whiteColor];
             
         }];
+        
+        //六个按钮
+        NSArray *nameStr = @[@"信工新闻眼",@"掌上组织生活",@"党员云互动",@"党建一点通",@"党员亮身份",@"党史上的今天"];
+        NSArray *imgStr = @[@"icon_01",@"icon_02",@"icon_03",@"icon_04",@"icon_05",@"icon_06"];
+        for (int i = 0; i <imgStr.count; i++) {
+            
+            _btnView = [SixButtonView buttonWithType:UIButtonTypeCustom];
+            [self addSubview:_btnView];
+            [_btnView.nameBtn setImage:[UIImage imageNamed:imgStr[i]] forState:UIControlStateNormal];
+            [_btnView.nameBtn setTitle:nameStr[i] forState:UIControlStateNormal];
+            [_btnView makeConstraints:^(MASConstraintMaker *make) {
+                if (i < 3) {
+                    make.top.equalTo(self.bannerView.bottom).offset(0);
+                      make.left.equalTo(20 + 70 * i);
+                }
+                else
+                {
+                    make.top.equalTo(self.bannerView.bottom).offset(70);
+                      make.left.equalTo(20 + 70 * (i - 3));
+                }
+                make.size.equalTo(CGSizeMake(100, 70));
+            }];
+           
+        }
     }
     return self;
 }
