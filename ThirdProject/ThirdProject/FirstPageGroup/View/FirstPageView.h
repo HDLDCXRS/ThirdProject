@@ -20,6 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)  ShuffingViewModel * bannerViewModel;
 //创建六个自定义button视图
 @property(nonatomic,strong) SixButtonView  * sixObj;
+//底部左边视图
+@property(nonatomic,strong) UIImageView  * leftImgView;
+@property(nonatomic,strong) UIImageView  * bottomView;
+
+//图片button
+typedef void(^BottomFourBtnClickBlock)(NSInteger index);
+@property(nonatomic,copy) BottomFourBtnClickBlock fourBtnClickBlock;
 @end
 
 NS_ASSUME_NONNULL_END

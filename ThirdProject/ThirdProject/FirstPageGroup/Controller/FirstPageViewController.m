@@ -18,10 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     //设置导航栏的属性
-    [self.navigationItem setTitle:@""];
-    UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 7, 120, 30)];
-    imgView.image = [UIImage imageNamed:@"logo"];
-    [self.navigationController.navigationBar addSubview:imgView];
+    [self navigationMethod];
     //初始化首页视图
     _firstPage = [[FirstPageView alloc] init];
     [self.view addSubview:_firstPage];
@@ -59,7 +56,35 @@
             } break;
         }
     };
+    //实现视图下面4个按钮点击事件
+    _firstPage.fourBtnClickBlock = ^(NSInteger index) {
+        switch (index) {
+                //随时随地学
+            case 0:{
+                
+            } break;
+                //随时随地拍
+            case 1:{
+                
+            } break;
+                //制度建设
+            case 2:{
+                
+            } break;
+                //特色活动
+            case 3:{
+                
+            } break;
+        }
+    };
 
 }
-
+//导航栏方法
+-(void)navigationMethod
+{
+    [self.navigationItem setTitle:@""];
+    UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 7, 120, 30)];
+    imgView.image = [UIImage imageNamed:@"logo"];
+    [self.navigationController.navigationBar addSubview:imgView];
+}
 @end
