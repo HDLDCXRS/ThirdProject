@@ -27,13 +27,6 @@
 		50AA7C092182B05100DD132A /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C072182B05100DD132A /* SLBannerView.m */; };
 		50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */; };
 		50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0F2182B31F00DD132A /* AssignToObject.m */; };
-		70DAAB362186FF580063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB302186FF580063AA48 /* LoginController.m */; };
-		70DAAB372186FF580063AA48 /* LoginBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB332186FF580063AA48 /* LoginBtnView.m */; };
-		70DAAB382186FF580063AA48 /* LoginHeadImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB352186FF580063AA48 /* LoginHeadImgView.m */; };
-		70DAAB452186FF6E0063AA48 /* MyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */; };
-		70DAAB462186FF6E0063AA48 /* MyDjAllBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */; };
-		70DAAB472186FF6E0063AA48 /* MyDjBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB422186FF6E0063AA48 /* MyDjBtn.m */; };
-		70DAAB482186FF6E0063AA48 /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB442186FF6E0063AA48 /* MyHeadView.m */; };
 		70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
@@ -83,20 +76,6 @@
 		50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingViewModel.m; sourceTree = "<group>"; };
 		50AA7C0E2182B31F00DD132A /* AssignToObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
 		50AA7C0F2182B31F00DD132A /* AssignToObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
-		70DAAB2F2186FF580063AA48 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
-		70DAAB302186FF580063AA48 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		70DAAB322186FF580063AA48 /* LoginBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBtnView.h; sourceTree = "<group>"; };
-		70DAAB332186FF580063AA48 /* LoginBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBtnView.m; sourceTree = "<group>"; };
-		70DAAB342186FF580063AA48 /* LoginHeadImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHeadImgView.h; sourceTree = "<group>"; };
-		70DAAB352186FF580063AA48 /* LoginHeadImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHeadImgView.m; sourceTree = "<group>"; };
-		70DAAB3B2186FF6E0063AA48 /* MyDJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDJViewController.h; sourceTree = "<group>"; };
-		70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDJViewController.m; sourceTree = "<group>"; };
-		70DAAB3F2186FF6E0063AA48 /* MyDjAllBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjAllBtnView.h; sourceTree = "<group>"; };
-		70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjAllBtnView.m; sourceTree = "<group>"; };
-		70DAAB412186FF6E0063AA48 /* MyDjBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjBtn.h; sourceTree = "<group>"; };
-		70DAAB422186FF6E0063AA48 /* MyDjBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjBtn.m; sourceTree = "<group>"; };
-		70DAAB432186FF6E0063AA48 /* MyHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeadView.h; sourceTree = "<group>"; };
-		70DAAB442186FF6E0063AA48 /* MyHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeadView.m; sourceTree = "<group>"; };
 		70DAAB4C2186FFAC0063AA48 /* UIView+LYCUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCUIView.h"; sourceTree = "<group>"; };
 		70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCUIView.m"; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,8 +125,8 @@
 		50AA7B802181C53700DD132A /* ThirdProject */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB492186FF740063AA48 /* MyDJGroup */,
-				70DAAB2D2186FF580063AA48 /* 登录 */,
+				70DAAB4F218703890063AA48 /* 登录 */,
+				70DAAB52218703890063AA48 /* MyDJGroup */,
 				50AA7B9B2181D92C00DD132A /* NewsNoticeGroup */,
 				50AA7B9A2181D91A00DD132A /* FirstPageGroup */,
 				50AA7B992181D90800DD132A /* Tools */,
@@ -322,93 +301,46 @@
 			path = "Dictionary  return Model";
 			sourceTree = "<group>";
 		};
-		70DAAB2D2186FF580063AA48 /* 登录 */ = {
+		70DAAB4F218703890063AA48 /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB392186FF6E0063AA48 /* MyDJGroup */,
-				70DAAB2E2186FF580063AA48 /* Controller */,
-				70DAAB312186FF580063AA48 /* View */,
+				70DAAB50218703890063AA48 /* Controller */,
+				70DAAB51218703890063AA48 /* View */,
 			);
-			name = "登录";
-			path = "../../../未命名文件夹/登录";
+			path = "登录";
 			sourceTree = "<group>";
 		};
-		70DAAB2E2186FF580063AA48 /* Controller */ = {
+		70DAAB50218703890063AA48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB2F2186FF580063AA48 /* LoginController.h */,
-				70DAAB302186FF580063AA48 /* LoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		70DAAB312186FF580063AA48 /* View */ = {
+		70DAAB51218703890063AA48 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB322186FF580063AA48 /* LoginBtnView.h */,
-				70DAAB332186FF580063AA48 /* LoginBtnView.m */,
-				70DAAB342186FF580063AA48 /* LoginHeadImgView.h */,
-				70DAAB352186FF580063AA48 /* LoginHeadImgView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		70DAAB392186FF6E0063AA48 /* MyDJGroup */ = {
+		70DAAB52218703890063AA48 /* MyDJGroup */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB3A2186FF6E0063AA48 /* Controller */,
-				70DAAB3D2186FF6E0063AA48 /* Model */,
-				70DAAB3E2186FF6E0063AA48 /* View */,
+				70DAAB53218703890063AA48 /* Controller */,
+				70DAAB54218703890063AA48 /* View */,
 			);
 			path = MyDJGroup;
 			sourceTree = "<group>";
 		};
-		70DAAB3A2186FF6E0063AA48 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				70DAAB3B2186FF6E0063AA48 /* MyDJViewController.h */,
-				70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		70DAAB3D2186FF6E0063AA48 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		70DAAB3E2186FF6E0063AA48 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				70DAAB3F2186FF6E0063AA48 /* MyDjAllBtnView.h */,
-				70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */,
-				70DAAB412186FF6E0063AA48 /* MyDjBtn.h */,
-				70DAAB422186FF6E0063AA48 /* MyDjBtn.m */,
-				70DAAB432186FF6E0063AA48 /* MyHeadView.h */,
-				70DAAB442186FF6E0063AA48 /* MyHeadView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		70DAAB492186FF740063AA48 /* MyDJGroup */ = {
-			isa = PBXGroup;
-			children = (
-				70DAAB4A2186FF740063AA48 /* Controller */,
-				70DAAB4B2186FF740063AA48 /* View */,
-			);
-			path = MyDJGroup;
-			sourceTree = "<group>";
-		};
-		70DAAB4A2186FF740063AA48 /* Controller */ = {
+		70DAAB53218703890063AA48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		70DAAB4B2186FF740063AA48 /* View */ = {
+		70DAAB54218703890063AA48 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -518,25 +450,18 @@
 			files = (
 				50AA7B912181C53900DD132A /* main.m in Sources */,
 				50AA7C022182AE9B00DD132A /* ShuffingModel.m in Sources */,
-				70DAAB472186FF6E0063AA48 /* MyDjBtn.m in Sources */,
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
-				70DAAB462186FF6E0063AA48 /* MyDjAllBtnView.m in Sources */,
 				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
 				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
-				70DAAB362186FF580063AA48 /* LoginController.m in Sources */,
 				70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */,
 				50AA7B832181C53700DD132A /* AppDelegate.m in Sources */,
 				50282C94218464A900790B9C /* OwnDefineBtn.m in Sources */,
-				70DAAB482186FF6E0063AA48 /* MyHeadView.m in Sources */,
 				50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */,
-				70DAAB382186FF580063AA48 /* LoginHeadImgView.m in Sources */,
 				50AA7BCB2181FC5000DD132A /* UIImageView+SLImageViewCategory.m in Sources */,
-				70DAAB372186FF580063AA48 /* LoginBtnView.m in Sources */,
 				50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */,
 				50AA7BA82181DA5400DD132A /* FirstPageViewController.m in Sources */,
 				50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */,
 				50AA7BCC2181FC5000DD132A /* UILabel+SLLabelCategory.m in Sources */,
-				70DAAB452186FF6E0063AA48 /* MyDJViewController.m in Sources */,
 				50AA7BCD2181FC5000DD132A /* UITextField+SLTextFieldCategory.m in Sources */,
 				50AA7BAB2181DA6B00DD132A /* NewsNoticeViewController.m in Sources */,
 				50282C97218466C800790B9C /* SixButtonView.m in Sources */,
