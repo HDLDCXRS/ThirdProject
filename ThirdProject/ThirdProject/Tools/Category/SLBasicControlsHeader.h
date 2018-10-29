@@ -13,7 +13,7 @@
 #import "UILabel+SLLabelCategory.h"
 #import "UIImageView+SLImageViewCategory.h"
 #import "UITextField+SLTextFieldCategory.h"
-
+#import "UIView+LYCUIView.h"
 
 #endif /* SLBasicControlsHeader_h */
 

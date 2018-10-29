@@ -17,7 +17,6 @@
 		50AA7B912181C53900DD132A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7B902181C53900DD132A /* main.m */; };
 		50AA7BA82181DA5400DD132A /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BA72181DA5400DD132A /* FirstPageViewController.m */; };
 		50AA7BAB2181DA6B00DD132A /* NewsNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BAA2181DA6B00DD132A /* NewsNoticeViewController.m */; };
-		50AA7BAE2181DA7E00DD132A /* MyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BAD2181DA7E00DD132A /* MyDJViewController.m */; };
 		50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BB92181E45400DD132A /* HDTabBarViewController.m */; };
 		50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BBC2181F0DD00DD132A /* HDNavigationViewController.m */; };
 		50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7BC12181FC5000DD132A /* UIButton+SLButtonCategory.m */; };
@@ -28,10 +27,14 @@
 		50AA7C092182B05100DD132A /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C072182B05100DD132A /* SLBannerView.m */; };
 		50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */; };
 		50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0F2182B31F00DD132A /* AssignToObject.m */; };
-		70878BDF218314C70001C21D /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70878BDE218314C70001C21D /* MyHeadView.m */; };
-		70878BE421831AE70001C21D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70878BE321831AE70001C21D /* LoginController.m */; };
-		70878BE821831BFC0001C21D /* LoginHeadImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70878BE721831BFC0001C21D /* LoginHeadImgView.m */; };
-		70878BEC218321D50001C21D /* LoginBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70878BEB218321D50001C21D /* LoginBtnView.m */; };
+		70DAAB362186FF580063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB302186FF580063AA48 /* LoginController.m */; };
+		70DAAB372186FF580063AA48 /* LoginBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB332186FF580063AA48 /* LoginBtnView.m */; };
+		70DAAB382186FF580063AA48 /* LoginHeadImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB352186FF580063AA48 /* LoginHeadImgView.m */; };
+		70DAAB452186FF6E0063AA48 /* MyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */; };
+		70DAAB462186FF6E0063AA48 /* MyDjAllBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */; };
+		70DAAB472186FF6E0063AA48 /* MyDjBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB422186FF6E0063AA48 /* MyDjBtn.m */; };
+		70DAAB482186FF6E0063AA48 /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB442186FF6E0063AA48 /* MyHeadView.m */; };
+		70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +59,6 @@
 		50AA7BA72181DA5400DD132A /* FirstPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
 		50AA7BA92181DA6B00DD132A /* NewsNoticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsNoticeViewController.h; sourceTree = "<group>"; };
 		50AA7BAA2181DA6B00DD132A /* NewsNoticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsNoticeViewController.m; sourceTree = "<group>"; };
-		50AA7BAC2181DA7E00DD132A /* MyDJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDJViewController.h; sourceTree = "<group>"; };
-		50AA7BAD2181DA7E00DD132A /* MyDJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDJViewController.m; sourceTree = "<group>"; };
 		50AA7BB82181E45400DD132A /* HDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTabBarViewController.h; sourceTree = "<group>"; };
 		50AA7BB92181E45400DD132A /* HDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTabBarViewController.m; sourceTree = "<group>"; };
 		50AA7BBB2181F0DD00DD132A /* HDNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDNavigationViewController.h; sourceTree = "<group>"; };
@@ -82,14 +83,22 @@
 		50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingViewModel.m; sourceTree = "<group>"; };
 		50AA7C0E2182B31F00DD132A /* AssignToObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
 		50AA7C0F2182B31F00DD132A /* AssignToObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
-		70878BDD218314C70001C21D /* MyHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeadView.h; sourceTree = "<group>"; };
-		70878BDE218314C70001C21D /* MyHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeadView.m; sourceTree = "<group>"; };
-		70878BE221831AE70001C21D /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
-		70878BE321831AE70001C21D /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		70878BE621831BFC0001C21D /* LoginHeadImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHeadImgView.h; sourceTree = "<group>"; };
-		70878BE721831BFC0001C21D /* LoginHeadImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHeadImgView.m; sourceTree = "<group>"; };
-		70878BEA218321D50001C21D /* LoginBtnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginBtnView.h; sourceTree = "<group>"; };
-		70878BEB218321D50001C21D /* LoginBtnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginBtnView.m; sourceTree = "<group>"; };
+		70DAAB2F2186FF580063AA48 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		70DAAB302186FF580063AA48 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		70DAAB322186FF580063AA48 /* LoginBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBtnView.h; sourceTree = "<group>"; };
+		70DAAB332186FF580063AA48 /* LoginBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBtnView.m; sourceTree = "<group>"; };
+		70DAAB342186FF580063AA48 /* LoginHeadImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHeadImgView.h; sourceTree = "<group>"; };
+		70DAAB352186FF580063AA48 /* LoginHeadImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHeadImgView.m; sourceTree = "<group>"; };
+		70DAAB3B2186FF6E0063AA48 /* MyDJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDJViewController.h; sourceTree = "<group>"; };
+		70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDJViewController.m; sourceTree = "<group>"; };
+		70DAAB3F2186FF6E0063AA48 /* MyDjAllBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjAllBtnView.h; sourceTree = "<group>"; };
+		70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjAllBtnView.m; sourceTree = "<group>"; };
+		70DAAB412186FF6E0063AA48 /* MyDjBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjBtn.h; sourceTree = "<group>"; };
+		70DAAB422186FF6E0063AA48 /* MyDjBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjBtn.m; sourceTree = "<group>"; };
+		70DAAB432186FF6E0063AA48 /* MyHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeadView.h; sourceTree = "<group>"; };
+		70DAAB442186FF6E0063AA48 /* MyHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeadView.m; sourceTree = "<group>"; };
+		70DAAB4C2186FFAC0063AA48 /* UIView+LYCUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCUIView.h"; sourceTree = "<group>"; };
+		70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCUIView.m"; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C46C3DA0C763C1BC3FFB8 /* Pods-ThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,8 +146,8 @@
 		50AA7B802181C53700DD132A /* ThirdProject */ = {
 			isa = PBXGroup;
 			children = (
-				70878BE021831ABC0001C21D /* 登录 */,
-				50AA7B9C2181D93D00DD132A /* MyDJGroup */,
+				70DAAB492186FF740063AA48 /* MyDJGroup */,
+				70DAAB2D2186FF580063AA48 /* 登录 */,
 				50AA7B9B2181D92C00DD132A /* NewsNoticeGroup */,
 				50AA7B9A2181D91A00DD132A /* FirstPageGroup */,
 				50AA7B992181D90800DD132A /* Tools */,
@@ -192,15 +201,6 @@
 				50AA7BA02181D9B800DD132A /* Controller */,
 			);
 			path = NewsNoticeGroup;
-			sourceTree = "<group>";
-		};
-		50AA7B9C2181D93D00DD132A /* MyDJGroup */ = {
-			isa = PBXGroup;
-			children = (
-				70878BDC2183149F0001C21D /* View */,
-				50AA7BA32181DA1700DD132A /* Controller */,
-			);
-			path = MyDJGroup;
 			sourceTree = "<group>";
 		};
 		50AA7B9D2181D99B00DD132A /* Controller */ = {
@@ -257,15 +257,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		50AA7BA32181DA1700DD132A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				50AA7BAC2181DA7E00DD132A /* MyDJViewController.h */,
-				50AA7BAD2181DA7E00DD132A /* MyDJViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		50AA7BAF2181DF2A00DD132A /* AppDelegateGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +280,8 @@
 		50AA7BBE2181FC5000DD132A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				70DAAB4C2186FFAC0063AA48 /* UIView+LYCUIView.h */,
+				70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */,
 				50AA7BBF2181FC5000DD132A /* SLBasicControlsHeader.h */,
 				50AA7BC02181FC5000DD132A /* UIButton+SLButtonCategory.h */,
 				50AA7BC12181FC5000DD132A /* UIButton+SLButtonCategory.m */,
@@ -329,40 +322,95 @@
 			path = "Dictionary  return Model";
 			sourceTree = "<group>";
 		};
-		70878BDC2183149F0001C21D /* View */ = {
+		70DAAB2D2186FF580063AA48 /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
-				70878BDD218314C70001C21D /* MyHeadView.h */,
-				70878BDE218314C70001C21D /* MyHeadView.m */,
+				70DAAB392186FF6E0063AA48 /* MyDJGroup */,
+				70DAAB2E2186FF580063AA48 /* Controller */,
+				70DAAB312186FF580063AA48 /* View */,
 			);
-			path = View;
+			name = "登录";
+			path = "../../../未命名文件夹/登录";
 			sourceTree = "<group>";
 		};
-		70878BE021831ABC0001C21D /* 登录 */ = {
+		70DAAB2E2186FF580063AA48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70878BE521831B9C0001C21D /* View */,
-				70878BE121831AC30001C21D /* Controller */,
-			);
-			path = "登录";
-			sourceTree = "<group>";
-		};
-		70878BE121831AC30001C21D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				70878BE221831AE70001C21D /* LoginController.h */,
-				70878BE321831AE70001C21D /* LoginController.m */,
+				70DAAB2F2186FF580063AA48 /* LoginController.h */,
+				70DAAB302186FF580063AA48 /* LoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		70878BE521831B9C0001C21D /* View */ = {
+		70DAAB312186FF580063AA48 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				70878BE621831BFC0001C21D /* LoginHeadImgView.h */,
-				70878BE721831BFC0001C21D /* LoginHeadImgView.m */,
-				70878BEA218321D50001C21D /* LoginBtnView.h */,
-				70878BEB218321D50001C21D /* LoginBtnView.m */,
+				70DAAB322186FF580063AA48 /* LoginBtnView.h */,
+				70DAAB332186FF580063AA48 /* LoginBtnView.m */,
+				70DAAB342186FF580063AA48 /* LoginHeadImgView.h */,
+				70DAAB352186FF580063AA48 /* LoginHeadImgView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70DAAB392186FF6E0063AA48 /* MyDJGroup */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAB3A2186FF6E0063AA48 /* Controller */,
+				70DAAB3D2186FF6E0063AA48 /* Model */,
+				70DAAB3E2186FF6E0063AA48 /* View */,
+			);
+			path = MyDJGroup;
+			sourceTree = "<group>";
+		};
+		70DAAB3A2186FF6E0063AA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAB3B2186FF6E0063AA48 /* MyDJViewController.h */,
+				70DAAB3C2186FF6E0063AA48 /* MyDJViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70DAAB3D2186FF6E0063AA48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70DAAB3E2186FF6E0063AA48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAB3F2186FF6E0063AA48 /* MyDjAllBtnView.h */,
+				70DAAB402186FF6E0063AA48 /* MyDjAllBtnView.m */,
+				70DAAB412186FF6E0063AA48 /* MyDjBtn.h */,
+				70DAAB422186FF6E0063AA48 /* MyDjBtn.m */,
+				70DAAB432186FF6E0063AA48 /* MyHeadView.h */,
+				70DAAB442186FF6E0063AA48 /* MyHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70DAAB492186FF740063AA48 /* MyDJGroup */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAB4A2186FF740063AA48 /* Controller */,
+				70DAAB4B2186FF740063AA48 /* View */,
+			);
+			path = MyDJGroup;
+			sourceTree = "<group>";
+		};
+		70DAAB4A2186FF740063AA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70DAAB4B2186FF740063AA48 /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -470,26 +518,29 @@
 			files = (
 				50AA7B912181C53900DD132A /* main.m in Sources */,
 				50AA7C022182AE9B00DD132A /* ShuffingModel.m in Sources */,
+				70DAAB472186FF6E0063AA48 /* MyDjBtn.m in Sources */,
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
+				70DAAB462186FF6E0063AA48 /* MyDjAllBtnView.m in Sources */,
 				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
 				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
-				50AA7BAE2181DA7E00DD132A /* MyDJViewController.m in Sources */,
+				70DAAB362186FF580063AA48 /* LoginController.m in Sources */,
+				70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */,
 				50AA7B832181C53700DD132A /* AppDelegate.m in Sources */,
 				50282C94218464A900790B9C /* OwnDefineBtn.m in Sources */,
+				70DAAB482186FF6E0063AA48 /* MyHeadView.m in Sources */,
 				50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */,
-				70878BEC218321D50001C21D /* LoginBtnView.m in Sources */,
+				70DAAB382186FF580063AA48 /* LoginHeadImgView.m in Sources */,
 				50AA7BCB2181FC5000DD132A /* UIImageView+SLImageViewCategory.m in Sources */,
+				70DAAB372186FF580063AA48 /* LoginBtnView.m in Sources */,
 				50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */,
-				70878BE821831BFC0001C21D /* LoginHeadImgView.m in Sources */,
 				50AA7BA82181DA5400DD132A /* FirstPageViewController.m in Sources */,
 				50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */,
 				50AA7BCC2181FC5000DD132A /* UILabel+SLLabelCategory.m in Sources */,
-				70878BDF218314C70001C21D /* MyHeadView.m in Sources */,
+				70DAAB452186FF6E0063AA48 /* MyDJViewController.m in Sources */,
 				50AA7BCD2181FC5000DD132A /* UITextField+SLTextFieldCategory.m in Sources */,
 				50AA7BAB2181DA6B00DD132A /* NewsNoticeViewController.m in Sources */,
 				50282C97218466C800790B9C /* SixButtonView.m in Sources */,
 				50282C9121845FCA00790B9C /* FirstPageView.m in Sources */,
-				70878BE421831AE70001C21D /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
