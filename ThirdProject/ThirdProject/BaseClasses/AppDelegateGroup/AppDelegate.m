@@ -19,6 +19,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[HDTabBarViewController alloc]init];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
+    [UserDefaults setValue:@"未登录" forKey:@"IsLogin"];
+    [UserDefaults setValue:@"" forKey:@"token的值"];
+    [UserDefaults setValue:@"" forKey:@"头像"];
+    [UserDefaults setValue:@"" forKey:@"用户名"];
     [self.window makeKeyAndVisible];
     return YES;
 }

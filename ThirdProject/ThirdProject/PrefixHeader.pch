@@ -18,5 +18,7 @@
 #import "CommonDefine.h"
 #import "SLBasicControlsHeader.h"
 #import "AssignToObject.h"
+#import "AFNetPostGet.h"
+#import "UIImageView+AFNetworking.h"
 
 #endif /* PrefixHeader_pch */
