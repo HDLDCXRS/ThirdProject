@@ -43,7 +43,6 @@
         make.height.equalTo(200);
     }];
     
-    
     __weak typeof(self) weakSelf = self;
     _myHeadView.LoginBlock = ^(UITapGestureRecognizer *tap) {
         [weakSelf.navigationController pushViewController:[[LoginController alloc ] init] animated:YES];
