@@ -53,7 +53,7 @@
     
     if (self.viewControllers.count == 1)
     {
-        self.tabBarController.tabBar.hidden = YES;
+        self.tabBarController.tabBar.hidden = NO;
     }
     
     return self;
