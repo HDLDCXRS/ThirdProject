@@ -64,16 +64,18 @@
     };
 }
 //获得登录数据
+
+
+
 -(void)GetDataFromInterandUserName:(NSString *)username andPassword:(NSString *)password
 {
-    _manager = [[AFHTTPSessionManager alloc] initWithBaseURL:WEBURL];
-    _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
-    _manager.responseSerializer = [AFJSONResponseSerializer serializer];
-    [self.manager POST:LoginUrl parameters:@{@"id_card":username,@"password":password} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    
+    __weak typeof(self) weakSelf = self;
+    [AFNetPostGet initGET:LoginUrl andparameters:@{@"id_card":username,@"password":password} ResponseObject:^(id  _Nullable responseObject) {
         NSString *str = responseObject[@"msg"];
         NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
         NSLog(@"responseObject = %@",responseObject);
-        
+
         if ([str isEqualToString:@"用户名不存在"]) {
             [UIView showMessage:str];
         }
@@ -86,11 +88,40 @@
             [UserDefaults setValue:str forKey:@"IsLogin"];
             [UserDefaults setValue:responseObject[@"token"] forKey:@"token的值"];
             [UserDefaults setValue:HeaderUrl forKey:@"头像"];
-
+            [UserDefaults setValue:username forKey:@"用户名"];
+            [weakSelf.navigationController popViewControllerAnimated:YES];
         }
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"error = %@",error);
+    } Failure:^(NSError * _Nonnull error) {
+        ;
     }];
+    
+    
+
+//    _manager = [[AFHTTPSessionManager alloc] initWithBaseURL:WEBURL];
+//    _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
+//    _manager.responseSerializer = [AFJSONResponseSerializer serializer];
+//    [self.manager POST:LoginUrl parameters:@{@"id_card":username,@"password":password} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//        NSString *str = responseObject[@"msg"];
+//        NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
+//        NSLog(@"responseObject = %@",responseObject);
+//
+//        if ([str isEqualToString:@"用户名不存在"]) {
+//            [UIView showMessage:str];
+//        }
+//        if ([str isEqualToString:@"用户密码错误"]) {
+//            [UIView showMessage:str];
+//        }
+//        if([str isEqualToString:@"登录成功"])
+//        {
+//            NSString *HeaderUrl = [responseObject[@"data"] objectForKey:@"header"];
+//            [UserDefaults setValue:str forKey:@"IsLogin"];
+//            [UserDefaults setValue:responseObject[@"token"] forKey:@"token的值"];
+//            [UserDefaults setValue:HeaderUrl forKey:@"头像"];
+//            [weakSelf.navigationController popViewControllerAnimated:YES];
+//        }
+//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+//        NSLog(@"error = %@",error);
+//    }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

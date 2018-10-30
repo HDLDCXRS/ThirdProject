@@ -14,6 +14,7 @@
 #import "UIImageView+SLImageViewCategory.h"
 #import "UITextField+SLTextFieldCategory.h"
 #import "UIView+LYCUIView.h"
+#import "UIView+LYCUIView.h"
 
 #endif /* SLBasicControlsHeader_h */
 

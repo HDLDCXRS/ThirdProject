@@ -39,6 +39,9 @@
         //登陆的用户名的手势
         _UserNameTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(Login:)];
         [_UserNameLabel addGestureRecognizer:_UserNameTap];
+        
+        
+        
     }
     return self;
 }

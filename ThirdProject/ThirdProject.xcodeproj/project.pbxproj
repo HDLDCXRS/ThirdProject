@@ -34,8 +34,9 @@
 		70DAAB64218704310063AA48 /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB60218704310063AA48 /* MyHeadView.m */; };
 		70DAAB742187056D0063AA48 /* LoginHeadImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB732187056D0063AA48 /* LoginHeadImgView.m */; };
 		70DAAB77218705A60063AA48 /* LoginBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB75218705A50063AA48 /* LoginBtnView.m */; };
-		70DAAB7A218706210063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB79218706210063AA48 /* LoginController.m */; };
-		70DAAB7E2187063C0063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB7D2187063B0063AA48 /* LoginController.m */; };
+		70DAABB12188770C0063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABB02188770C0063AA48 /* LoginController.m */; };
+		70DAABBA218880C70063AA48 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABB9218880C60063AA48 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		70DAABBE2188811E0063AA48 /* AFNetPostGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABBD2188811E0063AA48 /* AFNetPostGet.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
 
@@ -98,10 +99,12 @@
 		70DAAB732187056D0063AA48 /* LoginHeadImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHeadImgView.m; sourceTree = "<group>"; };
 		70DAAB75218705A50063AA48 /* LoginBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBtnView.m; sourceTree = "<group>"; };
 		70DAAB76218705A50063AA48 /* LoginBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBtnView.h; sourceTree = "<group>"; };
-		70DAAB78218706200063AA48 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
-		70DAAB79218706210063AA48 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		70DAAB7C2187063B0063AA48 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
-		70DAAB7D2187063B0063AA48 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		70DAABAF2188770C0063AA48 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		70DAABB02188770C0063AA48 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		70DAABB8218880C60063AA48 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		70DAABB9218880C60063AA48 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		70DAABBC2188811E0063AA48 /* AFNetPostGet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetPostGet.h; sourceTree = "<group>"; };
+		70DAABBD2188811E0063AA48 /* AFNetPostGet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetPostGet.m; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C46C3DA0C763C1BC3FFB8 /* Pods-ThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +180,7 @@
 		50AA7B992181D90800DD132A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				70DAABBB218880E00063AA48 /* ModelView */,
 				50AA7C0D2182B2C300DD132A /* Dictionary  return Model */,
 				50AA7C062182B03100DD132A /* ShuffingGroup */,
 				50AA7BBE2181FC5000DD132A /* Category */,
@@ -283,6 +287,8 @@
 		50AA7BBE2181FC5000DD132A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				70DAABB8218880C60063AA48 /* Reachability.h */,
+				70DAABB9218880C60063AA48 /* Reachability.m */,
 				70DAAB4C2186FFAC0063AA48 /* UIView+LYCUIView.h */,
 				70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */,
 				50AA7BBF2181FC5000DD132A /* SLBasicControlsHeader.h */,
@@ -376,9 +382,8 @@
 		70DAAB6D218705200063AA48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB7B2187063B0063AA48 /* Controller */,
-				70DAAB78218706200063AA48 /* LoginController.h */,
-				70DAAB79218706210063AA48 /* LoginController.m */,
+				70DAABAF2188770C0063AA48 /* LoginController.h */,
+				70DAABB02188770C0063AA48 /* LoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -394,13 +399,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		70DAAB7B2187063B0063AA48 /* Controller */ = {
+		70DAABBB218880E00063AA48 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB7C2187063B0063AA48 /* LoginController.h */,
-				70DAAB7D2187063B0063AA48 /* LoginController.m */,
+				70DAABBC2188811E0063AA48 /* AFNetPostGet.h */,
+				70DAABBD2188811E0063AA48 /* AFNetPostGet.m */,
 			);
-			name = Controller;
+			path = ModelView;
 			sourceTree = "<group>";
 		};
 		E6A56230B67C75EEA5852164 /* Pods */ = {
@@ -504,12 +509,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DAABBA218880C70063AA48 /* Reachability.m in Sources */,
 				50AA7B912181C53900DD132A /* main.m in Sources */,
 				70DAAB61218704310063AA48 /* MyDJViewController.m in Sources */,
 				50AA7C022182AE9B00DD132A /* ShuffingModel.m in Sources */,
 				70DAAB77218705A60063AA48 /* LoginBtnView.m in Sources */,
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
-				70DAAB7A218706210063AA48 /* LoginController.m in Sources */,
+				70DAABB12188770C0063AA48 /* LoginController.m in Sources */,
 				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
 				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
 				70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */,
@@ -523,12 +529,12 @@
 				50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */,
 				70DAAB742187056D0063AA48 /* LoginHeadImgView.m in Sources */,
 				50AA7BCC2181FC5000DD132A /* UILabel+SLLabelCategory.m in Sources */,
-				70DAAB7E2187063C0063AA48 /* LoginController.m in Sources */,
 				70DAAB62218704310063AA48 /* MyDjAllBtnView.m in Sources */,
 				50AA7BCD2181FC5000DD132A /* UITextField+SLTextFieldCategory.m in Sources */,
 				50AA7BAB2181DA6B00DD132A /* NewsNoticeViewController.m in Sources */,
 				70DAAB63218704310063AA48 /* MyDjBtn.m in Sources */,
 				50282C97218466C800790B9C /* SixButtonView.m in Sources */,
+				70DAABBE2188811E0063AA48 /* AFNetPostGet.m in Sources */,
 				50282C9121845FCA00790B9C /* FirstPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
