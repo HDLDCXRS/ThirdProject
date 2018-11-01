@@ -10,6 +10,7 @@
 		50282C9121845FCA00790B9C /* FirstPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50282C9021845FCA00790B9C /* FirstPageView.m */; };
 		50282C94218464A900790B9C /* OwnDefineBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 50282C93218464A900790B9C /* OwnDefineBtn.m */; };
 		50282C97218466C800790B9C /* SixButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50282C96218466C800790B9C /* SixButtonView.m */; };
+		50282CC9218873A000790B9C /* MesageNewsEyesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50282CC8218873A000790B9C /* MesageNewsEyesViewController.m */; };
 		50AA7B832181C53700DD132A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7B822181C53700DD132A /* AppDelegate.m */; };
 		50AA7B892181C53700DD132A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AA7B872181C53700DD132A /* Main.storyboard */; };
 		50AA7B8B2181C53900DD132A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AA7B8A2181C53900DD132A /* Assets.xcassets */; };
@@ -51,6 +52,8 @@
 		50282C93218464A900790B9C /* OwnDefineBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwnDefineBtn.m; sourceTree = "<group>"; };
 		50282C95218466C800790B9C /* SixButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixButtonView.h; sourceTree = "<group>"; };
 		50282C96218466C800790B9C /* SixButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixButtonView.m; sourceTree = "<group>"; };
+		50282CC7218873A000790B9C /* MesageNewsEyesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MesageNewsEyesViewController.h; sourceTree = "<group>"; };
+		50282CC8218873A000790B9C /* MesageNewsEyesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MesageNewsEyesViewController.m; sourceTree = "<group>"; };
 		50AA7B7E2181C53700DD132A /* ThirdProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AA7B812181C53700DD132A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50AA7B822181C53700DD132A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 			children = (
 				50AA7BA62181DA5400DD132A /* FirstPageViewController.h */,
 				50AA7BA72181DA5400DD132A /* FirstPageViewController.m */,
+				50282CC7218873A000790B9C /* MesageNewsEyesViewController.h */,
+				50282CC8218873A000790B9C /* MesageNewsEyesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -580,6 +585,7 @@
 				50282C94218464A900790B9C /* OwnDefineBtn.m in Sources */,
 				50AA7BCA2181FC5000DD132A /* UIButton+SLButtonCategory.m in Sources */,
 				50AA7BCB2181FC5000DD132A /* UIImageView+SLImageViewCategory.m in Sources */,
+				50282CC9218873A000790B9C /* MesageNewsEyesViewController.m in Sources */,
 				50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */,
 				50AA7BA82181DA5400DD132A /* FirstPageViewController.m in Sources */,
 				50AA7BBA2181E45400DD132A /* HDTabBarViewController.m in Sources */,
