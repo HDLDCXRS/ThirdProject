@@ -54,8 +54,8 @@
         NSString *passWord = weakSelf.LoginBtnView.PassWordText.text;
         if ([userName isEqual: @""] || [passWord  isEqual: @""] ) {
             //测试用的账号不用登陆
-            [weakSelf GetDataFromInterandUserName:@"1001" andPassword:@"123456"];
-//            [UIView showMessage:@"账户名或密码不能为空"];
+//            [weakSelf GetDataFromInterandUserName:@"1001" andPassword:@"123"];
+            [UIView showMessage:@"账户名或密码不能为空"];
         }
         else
         {
@@ -89,44 +89,18 @@
             [UserDefaults setValue:responseObject[@"token"] forKey:@"token的值"];
             [UserDefaults setValue:HeaderUrl forKey:@"头像"];
             [UserDefaults setValue:username forKey:@"用户名"];
+            [UserDefaults setValue:password forKey:@"密码"];
             [weakSelf.navigationController popViewControllerAnimated:YES];
         }
     } Failure:^(NSError * _Nonnull error) {
         ;
     }];
-    
-    
-
-//    _manager = [[AFHTTPSessionManager alloc] initWithBaseURL:WEBURL];
-//    _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
-//    _manager.responseSerializer = [AFJSONResponseSerializer serializer];
-//    [self.manager POST:LoginUrl parameters:@{@"id_card":username,@"password":password} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//        NSString *str = responseObject[@"msg"];
-//        NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
-//        NSLog(@"responseObject = %@",responseObject);
-//
-//        if ([str isEqualToString:@"用户名不存在"]) {
-//            [UIView showMessage:str];
-//        }
-//        if ([str isEqualToString:@"用户密码错误"]) {
-//            [UIView showMessage:str];
-//        }
-//        if([str isEqualToString:@"登录成功"])
-//        {
-//            NSString *HeaderUrl = [responseObject[@"data"] objectForKey:@"header"];
-//            [UserDefaults setValue:str forKey:@"IsLogin"];
-//            [UserDefaults setValue:responseObject[@"token"] forKey:@"token的值"];
-//            [UserDefaults setValue:HeaderUrl forKey:@"头像"];
-//            [weakSelf.navigationController popViewControllerAnimated:YES];
-//        }
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        NSLog(@"error = %@",error);
-//    }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation

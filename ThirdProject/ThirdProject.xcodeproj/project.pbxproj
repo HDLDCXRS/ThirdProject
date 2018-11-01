@@ -27,6 +27,7 @@
 		50AA7C092182B05100DD132A /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C072182B05100DD132A /* SLBannerView.m */; };
 		50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */; };
 		50AA7C102182B31F00DD132A /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C0F2182B31F00DD132A /* AssignToObject.m */; };
+		70C706432189CF6A002C2559 /* MineChangPassWordAllVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C706422189CF6A002C2559 /* MineChangPassWordAllVeiw.m */; };
 		70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */; };
 		70DAAB61218704310063AA48 /* MyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB58218704310063AA48 /* MyDJViewController.m */; };
 		70DAAB62218704310063AA48 /* MyDjAllBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAB5C218704310063AA48 /* MyDjAllBtnView.m */; };
@@ -37,6 +38,8 @@
 		70DAABB12188770C0063AA48 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABB02188770C0063AA48 /* LoginController.m */; };
 		70DAABBA218880C70063AA48 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABB9218880C60063AA48 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		70DAABBE2188811E0063AA48 /* AFNetPostGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABBD2188811E0063AA48 /* AFNetPostGet.m */; };
+		70DAABC62189ACB20063AA48 /* MineChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABC52189ACB20063AA48 /* MineChangeController.m */; };
+		70DAABC92189B0860063AA48 /* MineChangeTextFiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DAABC82189B0860063AA48 /* MineChangeTextFiledView.m */; };
 		77E3CD116F42EFE5DAA94A40 /* libPods-ThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B88C2421D5FCD1223C3E8F /* libPods-ThirdProject.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,8 @@
 		50AA7C0B2182B1FB00DD132A /* ShuffingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffingViewModel.m; sourceTree = "<group>"; };
 		50AA7C0E2182B31F00DD132A /* AssignToObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
 		50AA7C0F2182B31F00DD132A /* AssignToObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
+		70C706412189CF6A002C2559 /* MineChangPassWordAllVeiw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineChangPassWordAllVeiw.h; sourceTree = "<group>"; };
+		70C706422189CF6A002C2559 /* MineChangPassWordAllVeiw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineChangPassWordAllVeiw.m; sourceTree = "<group>"; };
 		70DAAB4C2186FFAC0063AA48 /* UIView+LYCUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCUIView.h"; sourceTree = "<group>"; };
 		70DAAB4D2186FFAC0063AA48 /* UIView+LYCUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCUIView.m"; sourceTree = "<group>"; };
 		70DAAB57218704310063AA48 /* MyDJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDJViewController.h; sourceTree = "<group>"; };
@@ -105,6 +110,10 @@
 		70DAABB9218880C60063AA48 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		70DAABBC2188811E0063AA48 /* AFNetPostGet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetPostGet.h; sourceTree = "<group>"; };
 		70DAABBD2188811E0063AA48 /* AFNetPostGet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetPostGet.m; sourceTree = "<group>"; };
+		70DAABC42189ACB20063AA48 /* MineChangeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineChangeController.h; sourceTree = "<group>"; };
+		70DAABC52189ACB20063AA48 /* MineChangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineChangeController.m; sourceTree = "<group>"; };
+		70DAABC72189B0860063AA48 /* MineChangeTextFiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineChangeTextFiledView.h; sourceTree = "<group>"; };
+		70DAABC82189B0860063AA48 /* MineChangeTextFiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineChangeTextFiledView.m; sourceTree = "<group>"; };
 		7ACB5B18CABE9945C618F4EC /* Pods-ThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2C46C3DA0C763C1BC3FFB8 /* Pods-ThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdProject/Pods-ThirdProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -334,9 +343,8 @@
 		70DAAB55218704310063AA48 /* MyDJGroup */ = {
 			isa = PBXGroup;
 			children = (
-				70DAAB56218704310063AA48 /* Controller */,
-				70DAAB59218704310063AA48 /* Model */,
-				70DAAB5A218704310063AA48 /* View */,
+				70DAABC02189AC6E0063AA48 /* MineChangPassWord */,
+				70DAABBF2189AC5D0063AA48 /* Mine */,
 			);
 			path = MyDJGroup;
 			sourceTree = "<group>";
@@ -406,6 +414,53 @@
 				70DAABBD2188811E0063AA48 /* AFNetPostGet.m */,
 			);
 			path = ModelView;
+			sourceTree = "<group>";
+		};
+		70DAABBF2189AC5D0063AA48 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAB56218704310063AA48 /* Controller */,
+				70DAAB59218704310063AA48 /* Model */,
+				70DAAB5A218704310063AA48 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		70DAABC02189AC6E0063AA48 /* MineChangPassWord */ = {
+			isa = PBXGroup;
+			children = (
+				70DAABC32189AC8E0063AA48 /* Model */,
+				70DAABC22189AC890063AA48 /* View */,
+				70DAABC12189AC800063AA48 /* Controller */,
+			);
+			path = MineChangPassWord;
+			sourceTree = "<group>";
+		};
+		70DAABC12189AC800063AA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70DAABC42189ACB20063AA48 /* MineChangeController.h */,
+				70DAABC52189ACB20063AA48 /* MineChangeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70DAABC22189AC890063AA48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70DAABC72189B0860063AA48 /* MineChangeTextFiledView.h */,
+				70DAABC82189B0860063AA48 /* MineChangeTextFiledView.m */,
+				70C706412189CF6A002C2559 /* MineChangPassWordAllVeiw.h */,
+				70C706422189CF6A002C2559 /* MineChangPassWordAllVeiw.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70DAABC32189AC8E0063AA48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E6A56230B67C75EEA5852164 /* Pods */ = {
@@ -517,6 +572,7 @@
 				50AA7BBD2181F0DD00DD132A /* HDNavigationViewController.m in Sources */,
 				70DAABB12188770C0063AA48 /* LoginController.m in Sources */,
 				50AA7C092182B05100DD132A /* SLBannerView.m in Sources */,
+				70C706432189CF6A002C2559 /* MineChangPassWordAllVeiw.m in Sources */,
 				50AA7C0C2182B1FB00DD132A /* ShuffingViewModel.m in Sources */,
 				70DAAB4E2186FFAC0063AA48 /* UIView+LYCUIView.m in Sources */,
 				50AA7B832181C53700DD132A /* AppDelegate.m in Sources */,
@@ -533,7 +589,9 @@
 				50AA7BCD2181FC5000DD132A /* UITextField+SLTextFieldCategory.m in Sources */,
 				50AA7BAB2181DA6B00DD132A /* NewsNoticeViewController.m in Sources */,
 				70DAAB63218704310063AA48 /* MyDjBtn.m in Sources */,
+				70DAABC62189ACB20063AA48 /* MineChangeController.m in Sources */,
 				50282C97218466C800790B9C /* SixButtonView.m in Sources */,
+				70DAABC92189B0860063AA48 /* MineChangeTextFiledView.m in Sources */,
 				70DAABBE2188811E0063AA48 /* AFNetPostGet.m in Sources */,
 				50282C9121845FCA00790B9C /* FirstPageView.m in Sources */,
 			);

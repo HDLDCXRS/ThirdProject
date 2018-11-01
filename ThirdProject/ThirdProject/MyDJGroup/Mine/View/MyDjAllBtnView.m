@@ -17,7 +17,7 @@
         _InforView.tag = 1;
         [self addSubview:_InforView];
         [_InforView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(0);
+            make.top.equalTo(1);
             make.left.equalTo(0);
             make.width.equalTo(SCREENWIDTH);
             make.height.equalTo(55);
@@ -31,7 +31,7 @@
         _IntegralView.tag = 2;
         [self addSubview:_IntegralView];
         [_IntegralView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.InforView.bottom).offset(0);
+            make.top.equalTo(self.InforView.bottom).offset(1);
             make.left.equalTo(0);
             make.width.equalTo(SCREENWIDTH);
             make.height.equalTo(55);
@@ -45,7 +45,7 @@
         _ChangePassWordView.tag = 3;
         [self addSubview:_ChangePassWordView];
         [_ChangePassWordView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.IntegralView.bottom).offset(0);
+            make.top.equalTo(self.IntegralView.bottom).offset(1);
             make.left.equalTo(0);
             make.width.equalTo(SCREENWIDTH);
             make.height.equalTo(55);
@@ -54,11 +54,11 @@
         _ChangePassWordTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(pushNext:)];
         [_ChangePassWordView addGestureRecognizer:_ChangePassWordTap];
         
-        _PayView = [[MyDjBtn alloc] initWithFrame:CGRectZero andImgName:@"update_pwd" andContentLabel:@"修改密码"];
+        _PayView = [[MyDjBtn alloc] initWithFrame:CGRectZero andImgName:@"update_pwd" andContentLabel:@"党费缴纳"];
         _PayView.tag = 4;
         [self addSubview:_PayView];
         [_PayView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.ChangePassWordView.bottom).offset(0);
+            make.top.equalTo(self.ChangePassWordView.bottom).offset(1);
             make.left.equalTo(0);
             make.width.equalTo(SCREENWIDTH);
             make.height.equalTo(55);

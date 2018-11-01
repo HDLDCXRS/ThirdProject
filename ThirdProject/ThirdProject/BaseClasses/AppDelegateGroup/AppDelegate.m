@@ -19,12 +19,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[HDTabBarViewController alloc]init];
     self.window.backgroundColor = [UIColor whiteColor];
-    
+    NSLog(@"%@",NSHomeDirectory());
     NSUserDefaults *UserDefaults = [NSUserDefaults standardUserDefaults];
-    [UserDefaults setValue:@"未登录" forKey:@"IsLogin"];
-    [UserDefaults setValue:@"" forKey:@"token的值"];
-    [UserDefaults setValue:@"" forKey:@"头像"];
-    [UserDefaults setValue:@"" forKey:@"用户名"];
+    NSString *isLogin = [UserDefaults objectForKey:@"IsLogin"];
+    if(![isLogin isEqual:@"登陆成功"])
+    {
+        [UserDefaults setValue:@"未登录" forKey:@"IsLogin"];
+        [UserDefaults setValue:@"" forKey:@"token的值"];
+        [UserDefaults setValue:@"" forKey:@"头像"];
+        [UserDefaults setValue:@"" forKey:@"用户名"];
+        [UserDefaults setValue:@"" forKey:@"密码"];
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

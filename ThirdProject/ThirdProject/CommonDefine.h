@@ -19,4 +19,6 @@
 #define WEBURL [NSURL URLWithString:@"http://211.67.177.56:8080/"]
 //登录接口
 #define LoginUrl @"hhdj/user/userLogin.do"
+//修改密码
+#define ChangePassWord @"hhdj/user/updatePwd.do"
 #endif /* CommonDefine_h */
